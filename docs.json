@@ -1,97 +1,67 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "Product Guide",
-  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
+  "theme": "mint",
+  "name": "ScamShield",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#E67E22"
   },
-  "favicon": "/favicon.ico",
-  "icons": {
-    "library": "lucide"
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
   },
-  "styling": {
-    "eyebrows": "breadcrumbs"
-  },
-  "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
-  },
+  "favicon": "/favicon.png",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Home",
-          "icon": "house",
-          "href": "/"
-        },
-        {
-          "anchor": "Changelog",
-          "icon": "scroll-text",
-          "href": "https://www.mintlify.com/docs/changelog"
-        },
-        {
-          "anchor": "Help",
-          "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
-        }
-      ]
-    },
-    "directory": "card",
     "groups": [
       {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
+        "group": "Introduction",
+        "pages": ["index", "getting-started/index", "getting-started/installation", "getting-started/configuration"]
+      },
+      {
+        "group": "Detection Features",
         "pages": [
-          "platform/quickstart",
-          "platform/key-concepts",
-          "platform/configuration/settings",
-          "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
+          "features/index",
+          "features/casino-detection",
+          "features/support-scam",
+          "features/intro-scan",
+          "features/quick-scam",
+          "features/scam-scan",
+          "features/moderation"
         ]
       },
       {
-        "group": "Analytics",
-        "icon": "chart-bar",
-        "expanded": true,
+        "group": "Web Dashboard",
         "pages": [
-          "analytics/quickstart",
-          "analytics/connect-data",
-          "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
+          "dashboard/index",
+          "dashboard/getting-started",
+          "dashboard/casino-tab",
+          "dashboard/support-tab",
+          "dashboard/general-tab",
+          "dashboard/detections-tab",
+          "dashboard/warnings-tab"
         ]
       },
       {
-        "group": "Integrations",
-        "icon": "plug",
-        "expanded": true,
+        "group": "Commands",
+        "pages": ["commands/index", "commands/slash-commands", "commands/prefix-commands"]
+      },
+      {
+        "group": "Advanced",
         "pages": [
-          "integrations/quickstart",
-          "integrations/authentication",
-          "integrations/connectors/crm",
-          "integrations/webhooks/configure"
+          "advanced/index",
+          "advanced/linked-servers",
+          "advanced/punishment-actions",
+          "advanced/self-hosting"
         ]
+      },
+      {
+        "group": "FAQ",
+        "pages": ["faq"]
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
   "footer": {
     "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "github": "https://github.com/anomalyco/UniversalAntiScam"
     }
   }
 }
