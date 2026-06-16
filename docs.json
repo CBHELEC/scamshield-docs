@@ -1,9 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "ScamShield",
   "colors": {
-    "primary": "#E67E22"
+    "primary": "#3e7b9e",
+    "light": "#372272",
+    "dark": "#32c6cc"
   },
   "logo": {
     "light": "/logo-light.png",
