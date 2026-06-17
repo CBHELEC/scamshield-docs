@@ -11,7 +11,10 @@
     "light": "/logo-light.png",
     "dark": "/logo-dark.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": {
+    "light": "/images/scamshield.ico",
+    "dark": "/images/scamshield.ico"
+  },
   "navigation": {
     "groups": [
       {
