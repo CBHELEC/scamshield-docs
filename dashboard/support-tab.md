@@ -1,7 +1,7 @@
 ---
 title: "Support Tab"
 description: "Configure support scam, intro scan, and quick scam detection settings."
-icon: "eye-off"
+icon: "messages-question"
 ---
 
 # Support Tab

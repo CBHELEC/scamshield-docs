@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
 description: "Frequently asked questions about ScamShield."
-icon: "circle-help"
+icon: "question-circle"
 ---
 
 # Frequently Asked Questions
@@ -26,7 +26,7 @@ Yes. Slash commands (`/help`, `/ping`, etc.) and prefix commands (`s.help`, `s.p
 
 Each engine has different triggers:
 
-- **Casino** — Messages with image attachments containing casino promo visuals + text
+- **Casino** — Messages with image attachments containing casino promo visuals \+ text
 - **Support** — Any message with masked/obfuscated URLs
 - **IntroScan** — Text messages matching fake introduction patterns
 - **QuickScam** — Text messages matching get-rich-quick patterns
@@ -48,7 +48,7 @@ Yes. The casino detection threshold is configurable in the dashboard (default: 5
 
 ### How do I configure the bot?
 
-Use the web dashboard at https://dashboard.scamshield.lol. Log in with Discord and select your server.
+Use the web dashboard at [https://dashboard.scamshield.lol](https://dashboard.scamshield.lol). Log in with Discord and select your server.
 
 ### How do I set up automatic actions?
 
@@ -67,6 +67,7 @@ The bot needs: Read Messages, Send Messages, Manage Messages, Moderate Members, 
 ### Why isn't the bot taking action?
 
 Check that:
+
 1. The bot has the required permissions in the channel and server
 2. Actions are configured in the dashboard
 3. The bot is not rate-limited by Discord
@@ -90,6 +91,7 @@ Run `/dev sync` to resynchronize global slash commands. This requires developer 
 ### Bot not responding
 
 Check:
+
 - The bot is online in Discord
 - `s.ping` returns a response
 - The bot has proper channel permissions
@@ -97,6 +99,7 @@ Check:
 ### False positives
 
 If the bot is flagging legitimate messages, you can:
+
 - Increase the casino detection threshold
 - Disable specific detection types
 - Remove overly broad actions (like ban) from the action chain

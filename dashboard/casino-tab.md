@@ -1,7 +1,7 @@
 ---
 title: "Casino Tab"
 description: "Configure casino scam detection settings."
-icon: "gamepad-2"
+icon: "money-bill-1-wave"
 ---
 
 # Casino Tab

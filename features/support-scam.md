@@ -1,7 +1,7 @@
 ---
 title: "Support Scam Detection"
 description: "Detects masked and obfuscated URLs used in Discord support impersonation scams."
-icon: "eye-off"
+icon: "messages-question"
 ---
 
 # Support Scam Detection

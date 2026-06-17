@@ -1,7 +1,7 @@
 ---
 title: "Manual Scan"
 description: "Use the /check command to manually analyze messages and images for scams."
-icon: "scan"
+icon: "barcode-scan"
 ---
 
 # Manual Scan
@@ -10,7 +10,7 @@ The ScamScan cog provides a `/check` command for on-demand analysis of suspiciou
 
 ## Usage
 
-```
+```text
 /check text: <message> image: <attachment>
 ```
 
@@ -18,7 +18,7 @@ Both `text` and `image` parameters are optional, but at least one must be provid
 
 ### Text Analysis
 
-Analyzes the provided text against all 15+ scam pattern groups and returns:
+Analyzes the provided text against all 15\+ scam pattern groups and returns:
 
 - **Risk Level** — Very High, High, Medium, Low, or Very Low
 - **Probability** — Scam probability percentage (0–100%)
@@ -35,7 +35,7 @@ The command returns an ephemeral embed (only visible to the user who ran the com
 - Risk level indicator with color coding
 - Scam probability bar
 - List of matched patterns with emoji and description
-- Source label (text, image, or image + OCR)
+- Source label (text, image, or image \+ OCR)
 
 ## Use Cases
 

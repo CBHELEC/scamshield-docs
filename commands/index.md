@@ -11,7 +11,7 @@ ScamShield provides both **slash commands** (recommended) and **prefix commands*
 ## Command Types
 
 | Type | Prefix | Example | Availability |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Slash | `/` | `/help` | Everywhere |
 | Prefix | `s.` | `s.help` | Server channels |
 
@@ -22,15 +22,10 @@ The bot's prefix is `s.`. For example, `s.ping` checks bot latency.
 ## Quick Reference
 
 | Command | Description |
-|---|---|
+| --- | --- |
 | `/help` or `s.help` | Show help with all available commands |
 | `/ping` or `s.ping` | Check bot latency |
 | `/check` | Analyse a message or image for scams |
 | `/warns` | View warning history for a user |
 | `/history` | View detection history for a user |
 | `/config` | Open the web dashboard |
-| `/dev status` | Change bot status (developers only) |
-| `/dev sync` | Sync slash commands (developers only) |
-| `/dev reload` | Reload cogs (developers only) |
-| `/dev clear-cmds` | Clear commands (developers only) |
-| `/dev uptime` | Show bot uptime |

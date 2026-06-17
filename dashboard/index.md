@@ -1,7 +1,7 @@
 ---
 title: "Web Dashboard"
 description: "Full server configuration via the ScamShield web dashboard."
-icon: "layout-dashboard"
+icon: "cog"
 ---
 
 # Web Dashboard
@@ -11,7 +11,7 @@ The ScamShield web dashboard provides a graphical interface for managing all ser
 ## Dashboard Tabs
 
 | Tab | Purpose |
-|---|---|
+| --- | --- |
 | Casino | Configure casino scam detection actions, alerts, and threshold |
 | Support | Configure support scam, intro scan, and quick scam actions and alerts |
 | General | Configure linked server propagation settings |
@@ -20,7 +20,7 @@ The ScamShield web dashboard provides a graphical interface for managing all ser
 
 ## Access
 
-1. Navigate to the dashboard URL (https://dashboard.scamshield.lol)
+1. Navigate to the dashboard URL ([https://dashboard.scamshield.lol](https://dashboard.scamshield.lol))
 2. Click **Login with Discord**
 3. Authorize the application
 4. Select your server from the list

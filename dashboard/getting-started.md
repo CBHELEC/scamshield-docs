@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with the Dashboard"
 description: "Logging in and navigating the ScamShield dashboard."
-icon: "log-in"
+icon: "id-badge"
 ---
 
 # Getting Started with the Dashboard
@@ -24,6 +24,7 @@ After logging in, you'll see a list of servers where:
 Use the search bar to filter servers by name or ID.
 
 If a server doesn't appear, either:
+
 - You don't have Admin permissions in that server
 - The bot hasn't been added to that server yet
 - Use the **Add to Server** button to invite the bot

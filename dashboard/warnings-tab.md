@@ -1,7 +1,7 @@
 ---
 title: "Warnings Tab"
 description: "View and manage user warnings."
-icon: "alert-triangle"
+icon: "warning"
 ---
 
 # Warnings Tab
@@ -13,7 +13,7 @@ The Warnings tab displays all warnings issued by ScamShield in your server.
 Each entry shows:
 
 | Column | Description |
-|---|---|
+| --- | --- |
 | ID | Unique warning identifier |
 | User | Username and discriminator of the warned user |
 | Moderator | Who issued the warning (usually the bot) |

@@ -49,10 +49,8 @@
       {
         "group": "Advanced",
         "pages": [
-          "advanced/index",
           "advanced/linked-servers",
-          "advanced/punishment-actions",
-          "advanced/self-hosting"
+          "advanced/punishment-actions"
         ]
       },
       {

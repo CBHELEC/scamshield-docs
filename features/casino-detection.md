@@ -1,7 +1,7 @@
 ---
 title: "Casino Scam Detection"
 description: "Detects celebrity-endorsed casino scams using text and image analysis."
-icon: "gamepad-2"
+icon: "money-bill-1-wave"
 ---
 
 # Casino Scam Detection
@@ -17,13 +17,13 @@ The engine uses a two-stage analysis pipeline:
 Extracts text from the message content, attachment filenames, and embed metadata. It checks for four categories of terms:
 
 | Category | Examples | Score Contribution |
-|---|---|---|
-| Celebrity | mrbeast, elon, ronaldo, taylor swift, drake, ksi, trump | +1–3 per term |
-| Casino | casino, slots, bonus, promo, wager, rakeback | +1–4 per term |
-| Crypto | wallet, usdt, bnb, withdraw, deposit, erc20 | +1–4 per term |
-| Pressure | claim, giveaway, limited, congratulations, fastest | +1–3 per term |
+| --- | --- | --- |
+| Celebrity | mrbeast, elon, ronaldo, taylor swift, drake, ksi, trump | \+1–3 per term |
+| Casino | casino, slots, bonus, promo, wager, rakeback | \+1–4 per term |
+| Crypto | wallet, usdt, bnb, withdraw, deposit, erc20 | \+1–4 per term |
+| Pressure | claim, giveaway, limited, congratulations, fastest | \+1–3 per term |
 
-Additional signals: money + bonus/withdrawal combos (+2), crypto wallet addresses (+3).
+Additional signals: money \+ bonus/withdrawal combos (\+2), crypto wallet addresses (\+3).
 
 If text analysis alone exceeds the threshold, the message is flagged immediately without image processing.
 

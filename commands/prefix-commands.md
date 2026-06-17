@@ -1,7 +1,7 @@
 ---
 title: "Prefix Commands"
 description: "Complete reference of all ScamShield prefix commands."
-icon: "text-cursor"
+icon: "s"
 ---
 
 # Prefix Commands

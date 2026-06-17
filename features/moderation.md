@@ -1,7 +1,7 @@
 ---
 title: "Moderation"
 description: "View warning and detection history for server members."
-icon: "scale"
+icon: "hammer-war"
 ---
 
 # Moderation
@@ -14,11 +14,12 @@ ScamShield tracks every detection and warning in a searchable database. Use the 
 
 Shows all warnings issued to a specific user.
 
-```
+```text
 /warns user: @username
 ```
 
 Displays:
+
 - Total warning count
 - Up to 10 most recent warnings with timestamps
 - Reason for each warning
@@ -28,14 +29,15 @@ Displays:
 
 Shows all scam detections recorded for a specific user.
 
-```
+```text
 /history user: @username
 ```
 
 Displays:
+
 - Total detection count
 - Up to 10 most recent detections with timestamps
-- Detection type (casino, support, intro, quick_scam) with emoji
+- Detection type (casino, support, intro, quick\_scam) with emoji
 - Score and confidence percentage
 - Action taken (delete, warn, timeout, kick, ban)
 
