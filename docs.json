@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "ScamShield",
+  "name": "Documentation - ScamShield | Discord Scam Protection",
   "colors": {
     "primary": "#3e7b9e",
-    "light": "#372272",
-    "dark": "#32c6cc"
+    "light": "#32c6cc",
+    "dark": "#372272"
   },
   "logo": {
     "light": "/logo-light.png",
@@ -59,10 +59,27 @@
       }
     ]
   },
-  "footer": {
-    "socials": {
-      "github": "https://github.com/anomalyco/UniversalAntiScam"
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "404: PAGE NOT FOUND",
+      "description": "The page you are looking for isn't here! Try somewhere else..."
     }
   },
-  "styling": {}
+  "seo": {
+    "indexing": "navigable"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://discord.gg/CxTCRJz4hR",
+        "label": "Support Server"
+      },
+      {
+        "href": "https://discord.com/oauth2/authorize?client_id=1513290469390422188",
+        "label": "Bot Invite"
+      }
+    ]
+  },
+  "description": "ScamShield automatically detects and removes casino spam, support scams, and other fraudulent messages - then links the detection across all the mutual servers."
 }
