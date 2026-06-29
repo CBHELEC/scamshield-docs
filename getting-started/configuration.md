@@ -14,7 +14,7 @@ ScamShield offers per-server configuration through the **web dashboard**. Each d
 
 The web dashboard provides a full GUI for managing all settings:
 
-1. Visit the dashboard URL (https://dashboard.scamshield.lol)
+1. Visit the dashboard URL ([https://dashboard.scamshield.lol](https://dashboard.scamshield.lol))
 2. Log in with your Discord account
 3. Select your server
 4. Configure each tab
@@ -34,7 +34,7 @@ Each detection type has three configurable components:
 What happens when a scam is detected. Actions run in order:
 
 | Action | Description |
-|---|---|
+| --- | --- |
 | Delete | Remove the scam message |
 | Warn | Record a warning in the database |
 | Timeout | Mute the user for a set duration |
@@ -48,7 +48,3 @@ Action timing: **Delete should be first** in the chain to remove the message bef
 - **Toggle** — Enable or disable alert embeds
 - **Channel** — Choose which channel receives alerts
 - **Ping Roles** — Roles to mention when an alert is sent
-
-### Detection Threshold
-
-The casino detection engine uses a configurable score threshold (default: 5). Lower values increase sensitivity but may increase false positives. This is set via the dashboard Casino tab.

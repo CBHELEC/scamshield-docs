@@ -25,10 +25,6 @@
         "group": "Detection Features",
         "pages": [
           "features/index",
-          "features/casino-detection",
-          "features/support-scam",
-          "features/intro-scan",
-          "features/quick-scam",
           "features/scam-scan",
           "features/moderation"
         ]

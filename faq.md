@@ -40,10 +40,6 @@ Review the alert embed for details on which signals were detected, including spe
 
 ScamShield uses pattern-based detection. If a scam uses novel phrasing or techniques not covered by existing patterns, it may not be detected. You can use `/check` to test messages. Report missed detections to the development team.
 
-### Can I adjust detection sensitivity?
-
-Yes. The casino detection threshold is configurable in the dashboard (default: 5). Lower values increase sensitivity. Support/Intro/QuickScam engines use fixed thresholds.
-
 ## Configuration
 
 ### How do I configure the bot?
@@ -53,10 +49,6 @@ Use the web dashboard at [https://dashboard.scamshield.lol](https://dashboard.sc
 ### How do I set up automatic actions?
 
 In the dashboard, use the Casino and Support tabs to configure action chains. Actions execute in order: delete, warn, timeout, kick, ban.
-
-### Can I have different actions for different scam types?
-
-Yes. Casino scams have their own action chain (`actions`), and Support/Intro/QuickScam share a separate action chain (`support_actions`).
 
 ## Permissions
 
@@ -78,15 +70,7 @@ Check that:
 
 Ensure you have **Administrator** permission in the server and the bot is a member.
 
-### The dashboard shows an error
-
-Check that the bot and dashboard are both running and the IPC connection is working. Visit the dashboard's `/debug/ipc-test` endpoint to test connectivity.
-
 ## Troubleshooting
-
-### Commands not showing up
-
-Run `/dev sync` to resynchronize global slash commands. This requires developer permissions.
 
 ### Bot not responding
 
@@ -100,7 +84,4 @@ Check:
 
 If the bot is flagging legitimate messages, you can:
 
-- Increase the casino detection threshold
-- Disable specific detection types
-- Remove overly broad actions (like ban) from the action chain
-- Report the false positive to the development team
+- Use the button on the alert to report it to the development team

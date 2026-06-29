@@ -6,7 +6,7 @@ icon: "barcode-scan"
 
 # Manual Scan
 
-The ScamScan cog provides a `/check` command for on-demand analysis of suspicious messages. This is useful for verifying messages that might have been missed by the automated engines.
+ScamShield provides a `/check` command for on-demand analysis of suspicious messages. This is useful for verifying messages that might have been missed by the automated engines, or have been sent in DMs or servers without the bot installed.
 
 ## Usage
 
